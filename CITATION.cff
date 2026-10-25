@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use the initial Cortist Reality Ledger dataset, cite the Zenodo v1.0 DOI and preserve source attribution."
+title: "Cortist Reality Ledger: Initial Public Evidence Snapshot (v1.0)"
+type: dataset
+authors:
+  - name: "Cortist"
+version: "1.0"
+date-released: 2026-10-25
+doi: 10.5281/zenodo.23650580
+url: https://zenodo.org/records/23650580
+repository-code: "https://github.com/cortist/reality-ledger-data"
+license: "CC-BY-4.0"
+keywords:
+  - artificial intelligence
+  - source attribution
+  - evidence registry
+  - versioned dataset
+  - AI claims
+abstract: "Dated source-linked editorial evidence records for ten consequential AI claims, with explicit limitations, twelve primary-source references and preserved v1 JSON snapshots. Not independently verified ground-truth labels."

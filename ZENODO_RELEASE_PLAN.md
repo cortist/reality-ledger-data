@@ -1,43 +1,39 @@
-# Zenodo v1.0 research dataset release — preparation status
+# Zenodo v1.0 dataset archive — published and verified
 
-**Repository metadata and license prepared. The actual GitHub Release / Zenodo DOI is not yet published.**
+**Status: Published. Public record and DOI verified.**
 
-## Release identification
+## DOI and release
 
-- GitHub repository: https://github.com/cortist/reality-ledger-data
-- Zenodo integration: enabled for **this research repository only**, per Cortist Zenodo account settings (2026-10-25)
-- Title: **Cortist Reality Ledger: Initial Public Evidence Snapshot (v1.0)**
-- Creator: **Cortist** (project/organizational attribution)
-- Type: **Dataset** (not software)
-- Archived data date: **2026-10-25**
-- Release/tag candidate: **v1.0**
-- License: **Creative Commons Attribution 4.0 International (CC BY 4.0)** for Cortist-owned original dataset material only; third-party linked works are excluded
-- Current DOI: **none — not yet registered**
+- Dataset: **Cortist Reality Ledger: Initial Public Evidence Snapshot (v1.0)**
+- Creator: **Cortist**
+- Snapshot date: **25 October 2026**
+- Dataset version: **v1.0**
+- GitHub tag and release: https://github.com/cortist/reality-ledger-data/releases/tag/v1.0
+- Zenodo record: https://zenodo.org/records/23650580
+- **Version DOI:** https://doi.org/10.5281/zenodo.23650580
+- License: **CC BY 4.0**, only for Cortist-owned original research compilation, summaries and documentation; rights of linked third-party material remain with their holders.
+- Release integrity: ten source-linked original JSON v1 snapshots, ten normalized JSONL records and twelve attributed primary-source URLs. See [PROVENANCE.json](PROVENANCE.json) for original-content SHA-256 hashes.
 
-## Integrity verified when preparing the repository
+## Verification
 
-- Ten original `snapshots/cl-0001-v1.json` through `cl-0010-v1.json` files preserve their historical contents.
-- The normalized `records.jsonl` includes ten unique cases and twelve distinct attributed HTTPS primary-source URLs.
-- `PROVENANCE.json` records original immutable public snapshot URLs and SHA-256 hashes.
-- `DATA_DICTIONARY.md` explains mixed original source structures, evidence boundaries, and date-only fields.
-- `README.md` and `LICENSE.md` describe source attribution, rights, exclusions, and version history.
+- GitHub release `v1.0` was confirmed published (not draft/pre-release).
+- Zenodo's public record was retrieved successfully, displaying the expected title and citation DOI **10.5281/zenodo.23650580**.
+- The Zenodo repository integration appears enabled in Cortist's account, with the DOI badge.
+- This confirms public record existence and the DOI; it is **not** a new independent audit of the research findings. Archived ZIP file-by-file checksums at Zenodo have not been independently re-downloaded and compared in this check.
 
-## What to check immediately before the first GitHub Release
+## Citation
 
-1. Re-check `main` to ensure exactly the expected ten v1 snapshots, normalized export, provenance and valid Zenodo metadata exist. Do not overwrite v1 data; use new versioned files for substantive updates.
-2. Verify that the Cortist project is authorized to license its *own* authored data, summaries and compilation under CC BY 4.0. This license cannot grant rights in linked third-party works.
-3. Confirm metadata in `.zenodo.json`: `upload_type: dataset`, `version: 1.0`, `creators: Cortist`, `access_right: open`, `license: cc-by-4.0`.
-4. Create **one** GitHub release from `main` using tag **`v1.0`**, title in `.zenodo.json`, and the publication summary in [RELEASE_NOTES_v1.0.md](RELEASE_NOTES_v1.0.md). Do not create extra releases or tags as tests.
-5. Confirm Zenodo ingests **the actual GitHub release** (enablement alone does not generate a DOI). Inspect the Zenodo landing page for **Dataset** type, attribution, selected license, files and actual minted DOI.
-6. Only after confirmation, add the DOI to GitHub README / Hugging Face / Cortist.com. The DOI must never be guessed.
+> Cortist (2026). *Cortist Reality Ledger: Initial Public Evidence Snapshot (v1.0)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23650580
 
-## Future strategy
+[Download citation metadata](CITATION.cff).
 
-The public initial snapshot supports citation, discovery and reproducibility. Cortist's differentiated business offerings can focus on ongoing source monitoring, material-change alerts, premium longitudinal analysis and tailored B2B research. Openly licensed v1 material stays reusable under CC BY 4.0; later separate products need not be covered by this specific release.
+## Next publication
 
-## Official references
+Future substantive changes should appear as independently documented, append-only `v2` snapshots of the affected individual records, followed by a new GitHub/Zenodo dataset release when appropriate. Never replace the existing immutable version `v1.0` or conflate the archived snapshot with continuously updated Cortist pages. For commercial services, differentiate with ongoing evidence monitoring, longitudinal analysis and tailored B2B products, not by revoking published CC BY 4.0 rights.
 
-- [Zenodo .zenodo.json metadata](https://help.zenodo.org/docs/github/describe-software/zenodo-json/)
-- [Zenodo GitHub repository enablement](https://help.zenodo.org/docs/github/enable-repository/)
-- [Zenodo licenses and rights](https://help.zenodo.org/docs/deposit/describe-records/licenses/)
-- [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+## Primary links
+
+- https://cortist.com/reality-ledger/
+- https://huggingface.co/datasets/cortist/reality-ledger
+- https://github.com/cortist/reality-ledger-data
+- https://zenodo.org/records/23650580

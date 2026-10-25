@@ -4,7 +4,7 @@
 
 AI predictions. Industry promises. Scientific evidence. What actually happened.
 
-[Official website](https://cortist.com/) · [Reality Ledger](https://cortist.com/reality-ledger/) · [Open Research & Data](https://cortist.com/open-research/) · [Hugging Face dataset](https://huggingface.co/datasets/cortist/reality-ledger)
+[Official website](https://cortist.com/) · [Reality Ledger](https://cortist.com/reality-ledger/) · [Open Research & Data](https://cortist.com/open-research/) · [Hugging Face dataset](https://huggingface.co/datasets/cortist/reality-ledger) · [Zenodo DOI](https://doi.org/10.5281/zenodo.23650580)
 
 ## About this repository
 
@@ -23,7 +23,8 @@ The snapshot contains **10 individually identified cases (CL-0001–CL-0010)**, 
 | [`PROVENANCE.json`](PROVENANCE.json) | Original canonical snapshot URLs, per-file SHA-256 checksums, and export context. |
 | [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) | Field definitions, source-link normalization, interpretation and rights notes. |
 | [`LICENSE.md`](LICENSE.md) | CC BY 4.0 terms and explicit exclusion of third-party works. |
-| [`.zenodo.json`](.zenodo.json) | Zenodo Dataset metadata for versioned DOI archiving. |
+| [`.zenodo.json`](.zenodo.json) | Zenodo Dataset metadata used for the v1.0 DOI release. |
+| [`CITATION.cff`](CITATION.cff) | Machine-readable citation metadata pointing to the v1.0 Zenodo DOI. |
 
 `records.jsonl` is a normalized derivative generated from the public Cortist v1 snapshots. **The original JSON snapshots are authoritative for their respective historical versions.** The Hugging Face publication is another discoverable dataset distribution and may be updated on a different schedule; do not assume byte-for-byte identity between platforms.
 
@@ -42,11 +43,15 @@ Original record pages and dated JSON files remain publicly accessible on [Cortis
 
 ## Citation and DOI
 
-Until a formally reviewed Zenodo release receives a DOI, cite the version and URL transparently, for example:
+**The first archived version is now published on Zenodo:** [**10.5281/zenodo.23650580**](https://doi.org/10.5281/zenodo.23650580). The release preserves the dataset snapshot dated 25 October 2026.
 
-> Cortist (2026). *Reality Ledger: Initial Public Evidence Snapshot, v1.0 (25 October 2026).* GitHub: https://github.com/cortist/reality-ledger-data . Canonical record pages: https://cortist.com/reality-ledger/ .
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23650580.svg)](https://doi.org/10.5281/zenodo.23650580)
 
-**Zenodo connection is separate from publication:** The GitHub integration is enabled, and [Zenodo metadata](.zenodo.json) is prepared for the first release. **No Zenodo DOI has been minted yet.** Releasing a GitHub tag triggers Zenodo archiving; verify the actual Zenodo record and DOI before citing one. See [RELEASE_NOTES_v1.0.md](RELEASE_NOTES_v1.0.md) and the [release checklist](ZENODO_RELEASE_PLAN.md).
+> Cortist (2026). *Cortist Reality Ledger: Initial Public Evidence Snapshot (v1.0)* [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.23650580](https://doi.org/10.5281/zenodo.23650580).
+
+For machine-readable citation metadata, see [`CITATION.cff`](CITATION.cff). Use this version-specific DOI when referencing the initial dataset snapshot.
+
+The [official GitHub release](https://github.com/cortist/reality-ledger-data/releases/tag/v1.0) is archived at [Zenodo](https://zenodo.org/records/23650580). The *v1.0 tag and its ten original snapshots remain unchanged*; README/citation links added after archiving are metadata updates on the continuing `main` branch, not a new dataset version. The Zenodo record is distinct from the live Cortist Ledger and the Hugging Face dataset. See [release notes](RELEASE_NOTES_v1.0.md) and [archival record](ZENODO_RELEASE_PLAN.md).
 
 ## Methodology and contact
 

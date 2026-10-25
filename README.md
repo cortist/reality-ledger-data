@@ -22,6 +22,8 @@ The snapshot contains **10 individually identified cases (CL-0001–CL-0010)**, 
 | [`snapshots/`](snapshots/) | Ten exact published `cl-XXXX-v1.json` source snapshots, preserved without field rewrites. |
 | [`PROVENANCE.json`](PROVENANCE.json) | Original canonical snapshot URLs, per-file SHA-256 checksums, and export context. |
 | [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) | Field definitions, source-link normalization, interpretation and rights notes. |
+| [`LICENSE.md`](LICENSE.md) | CC BY 4.0 terms and explicit exclusion of third-party works. |
+| [`.zenodo.json`](.zenodo.json) | Zenodo Dataset metadata for versioned DOI archiving. |
 
 `records.jsonl` is a normalized derivative generated from the public Cortist v1 snapshots. **The original JSON snapshots are authoritative for their respective historical versions.** The Hugging Face publication is another discoverable dataset distribution and may be updated on a different schedule; do not assume byte-for-byte identity between platforms.
 
@@ -36,7 +38,7 @@ The snapshot contains **10 individually identified cases (CL-0001–CL-0010)**, 
 
 Original record pages and dated JSON files remain publicly accessible on [Cortist.com](https://cortist.com/reality-ledger/). Editorial descriptions are Cortist's analysis; external article content and linked research remain subject to their own copyright and terms.
 
-**No general open license has been assigned to this repository or dataset.** Public availability permits viewing and linking but should not be interpreted as permission to redistribute, commercially republish, or sublicense all content. Rights and intended research-reuse terms must be clarified before any license is granted or a Zenodo deposit is released. The repository deliberately contains **no LICENSE file** for now.
+**License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE.md) for original Cortist-owned content only.** Cortist's authored research compilation, source-linked summaries, normalization and documentation may be shared, adapted and commercially reused with proper attribution under that license. This permission **does not grant rights to third-party papers, articles, images, logos, software or other external content linked from the records**. Rights are described precisely in [LICENSE.md](LICENSE.md). Attribution should identify *Cortist*, the dataset version, the original URL and the license, and note modifications.
 
 ## Citation and DOI
 
@@ -44,7 +46,7 @@ Until a formally reviewed Zenodo release receives a DOI, cite the version and UR
 
 > Cortist (2026). *Reality Ledger: Initial Public Evidence Snapshot, v1.0 (25 October 2026).* GitHub: https://github.com/cortist/reality-ledger-data . Canonical record pages: https://cortist.com/reality-ledger/ .
 
-**Zenodo connection is separate from publication**: enabling repository integration does not create an archived dataset or DOI by itself. A GitHub *release* can trigger automatic Zenodo archiving; do not issue one before the license and deposition metadata are approved.
+**Zenodo connection is separate from publication:** The GitHub integration is enabled, and [Zenodo metadata](.zenodo.json) is prepared for the first release. **No Zenodo DOI has been minted yet.** Releasing a GitHub tag triggers Zenodo archiving; verify the actual Zenodo record and DOI before citing one. See [RELEASE_NOTES_v1.0.md](RELEASE_NOTES_v1.0.md) and the [release checklist](ZENODO_RELEASE_PLAN.md).
 
 ## Methodology and contact
 

@@ -39,4 +39,4 @@ Likewise `events` and `sourceTimeline` used different representations. The `time
 
 ## Limitations and copyright
 
-Not a comprehensive AI-claims corpus, randomized sample, outcome scorecard, safety certification, or independently validated benchmark. Neither the content of linked third-party works nor blanket rights to republish them are licensed by this repository. No `LICENSE` has yet been selected for Cortist-authored compilation material. See [README](README.md).
+Not a comprehensive AI-claims corpus, randomized sample, outcome scorecard, safety certification, or independently validated benchmark. Original Cortist-owned editorial descriptions, curated compilation and normalization are licensed under **CC BY 4.0**, subject to attribution; commercial reuse of that *licensed material* is allowed. This does **not** transfer or sublicense copyrights in linked third-party works, papers, images, trademarks or research. See [LICENSE.md](LICENSE.md) for the exact scope and [README](README.md).

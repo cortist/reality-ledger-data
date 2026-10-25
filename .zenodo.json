@@ -1,0 +1,26 @@
+{
+  "title": "Cortist Reality Ledger: Initial Public Evidence Snapshot (v1.0)",
+  "upload_type": "dataset",
+  "description": "<p>Versioned, source-linked editorial evidence register of ten consequential artificial-intelligence claims, announcements and published findings. The 25 October 2026 snapshot preserves ten original dated JSON evidence records (CL-0001–CL-0010) and a normalized JSONL export linking to twelve original primary-source references. Each record separates the tracked question, documented evidence, explicit limitations and next evidence trigger. This is not independent ground-truth labeling, a safety certification, a company ranking or a validated outcome score.</p><p>Cortist-authored materials are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0) to the extent Cortist owns the relevant rights. Linked third-party research and other external works are excluded and subject to their original rights. Canonical records and subsequent versions: <a href=\"https://cortist.com/reality-ledger/\">Cortist Reality Ledger</a>. Another discoverable distribution: <a href=\"https://huggingface.co/datasets/cortist/reality-ledger\">Hugging Face</a>.</p>",
+  "creators": [
+    {
+      "name": "Cortist"
+    }
+  ],
+  "version": "1.0",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "artificial intelligence",
+    "AI safety",
+    "AI agents",
+    "source attribution",
+    "evidence registry",
+    "AI claims",
+    "reproducibility",
+    "research data",
+    "AI forecasting",
+    "versioned datasets"
+  ]
+}

@@ -94,7 +94,11 @@
   "method": "Exact JSON snapshots read from Cortist's currently deployed production-asset archive, hash-matched against the Pages production manifest. Normalized JSONL generated without overwriting original snapshots.",
   "notes": [
     "No automatic Zenodo release has been created.",
-    "No additional copyright or research reuse license is granted by public repository availability.",
-    "SHA-256 hashes refer to original snapshot bytes."
-  ]
+    "SHA-256 hashes refer to original snapshot bytes.",
+    "CC BY 4.0 is granted only for Cortist-owned material and applicable database rights; third-party external works are excluded.",
+    "No Zenodo DOI has been created by this metadata commit; verify first actual Zenodo release."
+  ],
+  "license": "CC-BY-4.0",
+  "license_scope": "Cortist-owned original editorial descriptions, source-linked compilation, normalization and documentation only. Linked third-party works, source articles, imagery, external software and trademarks are excluded.",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/"
 }

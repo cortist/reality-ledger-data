@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.1",
+  "recordId": "CL-0009",
+  "snapshotVersion": 1,
+  "snapshotCreated": "2026-10-25",
+  "sourcePublicationDate": "2026-10-14",
+  "topic": "AI & Energy",
+  "organization": "International Energy Agency",
+  "claim": "Do 134 IEA data-centre grid policies show that the measures work?",
+  "status": "Policy inventory documented",
+  "state": "documented",
+  "sourceFinding": "The IEA surveyed 134 data-centre electricity integration policies and regulations, with nearly 40% announced or implemented over the prior year.",
+  "evidenceLimits": "Counting policies does not assess their enforcement, effectiveness or actual consumer electricity costs.",
+  "nextEvidenceTrigger": "Evidence on implementation, connection delays, grid capacity and cost allocation.",
+  "sources": [
+    {
+      "name": "IEA Powering Artificial Intelligence executive summary",
+      "url": "https://www.iea.org/reports/powering-artificial-intelligence/executive-summary",
+      "published": "2026-10-14"
+    }
+  ],
+  "sourceTimeline": "2026-10-14: IEA publishes its policy inventory",
+  "linkedNews": "https://cortist.com/news/iea-data-centre-grid-policies-2026/",
+  "topicUrl": "https://cortist.com/ai-and-energy/",
+  "trackedPromise": null,
+  "integrityRule": "Append-only revisions: never overwrite this snapshot. Future evidence changes require a new version and review."
+}

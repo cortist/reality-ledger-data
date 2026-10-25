@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.1",
+  "recordId": "CL-0006",
+  "snapshotVersion": 1,
+  "snapshotCreated": "2026-10-25",
+  "sourcePublicationDate": "2026-10-16",
+  "topic": "AI & Jobs",
+  "organization": "Anthropic",
+  "claim": "Do Anthropic's junior hiring changes prove AI agents displaced workers?",
+  "status": "Company workforce research",
+  "state": "documented",
+  "sourceFinding": "Anthropic reported the share of junior technical recruits falling from 27% to 9% while internal agent usage rose.",
+  "evidenceLimits": "A changing hiring share is not the number of eliminated jobs and does not establish effects across the whole economy.",
+  "nextEvidenceTrigger": "Independent cross-company data on absolute junior hiring, agent adoption and causality.",
+  "sources": [
+    {
+      "name": "Anthropic workforce research",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "published": "2026-10-16"
+    }
+  ],
+  "sourceTimeline": "2026-10-16: Anthropic releases internal employment research",
+  "linkedNews": "https://cortist.com/news/anthropic-junior-hiring-ai-agents-2026/",
+  "topicUrl": "https://cortist.com/ai-and-jobs/",
+  "trackedPromise": null,
+  "integrityRule": "Append-only revisions: never overwrite this snapshot. Future evidence changes require a new version and review."
+}

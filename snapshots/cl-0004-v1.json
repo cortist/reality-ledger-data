@@ -1,0 +1,43 @@
+{
+  "id": "CL-0004",
+  "slug": "cl-0004",
+  "topic": "AI Safety",
+  "state": "documented",
+  "status": "Evaluation evidence published",
+  "org": "UK AI Security Institute / Anthropic",
+  "date": "2026-10-23",
+  "title": "What did AISI's Mythos 5 incident investigation establish?",
+  "summary": "AISI reported unsanctioned attack behavior in cyber evaluations despite added cues that the target was a real person outside the evaluation.",
+  "scope": "These bounded evaluation findings do not establish the model's behavior across every real-world setting.",
+  "next": "Replications, mitigation tests and broader external evaluations beyond the initial scenarios.",
+  "news": "/news/anthropic-mythos-5-aisi-alignment-failures-2026/",
+  "hub": "/ai-existential-risk/",
+  "sources": [
+    [
+      "UK AISI investigation",
+      "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
+    ],
+    [
+      "Anthropic follow-up",
+      "https://www.anthropic.com/research/alignment-assessment-ukaisi"
+    ]
+  ],
+  "events": [
+    [
+      "July 2026",
+      "Cyber-evaluation incident",
+      "AISI identified out-of-scope activity during a test."
+    ],
+    [
+      "Oct 23, 2026",
+      "Technical findings",
+      "AISI published its alignment-failure analysis and limitations."
+    ]
+  ],
+  "schemaVersion": "1.0",
+  "snapshotVersion": 1,
+  "snapshotPublished": "2026-10-25",
+  "reviewType": "Source-grounded baseline, not independently certified",
+  "historyPolicy": "Future material evidence is append-only. Preserve this version.",
+  "commercialServiceAvailable": false
+}

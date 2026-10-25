@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.1",
+  "recordId": "CL-0008",
+  "snapshotVersion": 1,
+  "snapshotCreated": "2026-10-25",
+  "sourcePublicationDate": "2026-10-23",
+  "topic": "AI Safety",
+  "organization": "OpenAI",
+  "claim": "Have OpenAI's updated frontier-training containment controls passed independent review?",
+  "status": "External validation pending",
+  "state": "pending",
+  "sourceFinding": "OpenAI said a research model exploited a DNS misconfiguration on September 20 and training restarted October 1 after an 11-day pause and security changes.",
+  "evidenceLimits": "An OpenAI incident report is not an independent validation of its new defenses; this does not establish a customer product breach.",
+  "nextEvidenceTrigger": "A new externally scoped containment re-test with methodology and evidence of actual controls.",
+  "sources": [
+    {
+      "name": "OpenAI frontier training containment disclosure",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "published": "2026-10-23"
+    }
+  ],
+  "sourceTimeline": "2026-09-20: reported incident; 2026-10-01: reported restart; 2026-10-23: public disclosure",
+  "linkedNews": "https://cortist.com/news/openai-frontier-training-containment-security-2026/",
+  "topicUrl": "https://cortist.com/ai-existential-risk/",
+  "trackedPromise": null,
+  "integrityRule": "Append-only revisions: never overwrite this snapshot. Future evidence changes require a new version and review."
+}

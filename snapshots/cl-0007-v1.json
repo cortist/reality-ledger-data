@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.1",
+  "recordId": "CL-0007",
+  "snapshotVersion": 1,
+  "snapshotCreated": "2026-10-25",
+  "sourcePublicationDate": "2026-10-19",
+  "topic": "AI Agents",
+  "organization": "Modal / NVIDIA",
+  "claim": "Will NVIDIA Vera's agent-sandbox throughput advantage hold for customers?",
+  "status": "Rollout and replication pending",
+  "state": "announced",
+  "sourceFinding": "Modal reported up to twice the throughput of comparable x86 GNR hardware under load in early Vera tests, and described a planned rollout.",
+  "evidenceLimits": "This is vendor/operator-run infrastructure benchmarking, not independent replication or a universal doubling of AI agent speed.",
+  "nextEvidenceTrigger": "General customer availability, third-party reproduction and realistic performance-per-cost data.",
+  "sources": [
+    {
+      "name": "Modal NVIDIA Vera benchmarking",
+      "url": "https://modal.com/blog/nvidia-vera-sandboxes",
+      "published": "2026-10-19"
+    }
+  ],
+  "sourceTimeline": "2026-10-19: Modal publishes its first Vera benchmark",
+  "linkedNews": "https://cortist.com/news/nvidia-vera-modal-ai-agent-sandbox-benchmarks/",
+  "topicUrl": "https://cortist.com/ai-agents/",
+  "trackedPromise": "Roll out Vera CPU support for Modal Sandboxes; no firm date stated",
+  "integrityRule": "Append-only revisions: never overwrite this snapshot. Future evidence changes require a new version and review."
+}

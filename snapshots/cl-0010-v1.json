@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.1",
+  "recordId": "CL-0010",
+  "snapshotVersion": 1,
+  "snapshotCreated": "2026-10-25",
+  "sourcePublicationDate": "2026-10-15",
+  "topic": "AI Safety",
+  "organization": "Anthropic / METR",
+  "claim": "Will METR publish independent safety evaluations after gaining access to Anthropic?",
+  "status": "Independent METR report pending",
+  "state": "announced",
+  "sourceFinding": "Anthropic said six METR employees received employee-like access to selected internal resources and that METR may publish analyses, subject to predefined redactions.",
+  "evidenceLimits": "An access agreement is not a completed independent safety audit. Anthropic's disclosure describes limits on privileged information and publication redactions.",
+  "nextEvidenceTrigger": "Public METR analysis with disclosed test scope, evidence, access limits and independent conclusions.",
+  "sources": [
+    {
+      "name": "Anthropic independent evaluators disclosure",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "published": "2026-10-15"
+    }
+  ],
+  "sourceTimeline": "2026-10-15: evaluator arrangement announced; 2026-10-16: terms clarification noted",
+  "linkedNews": "https://cortist.com/news/anthropic-metr-independent-ai-evaluators/",
+  "topicUrl": "https://cortist.com/ai-existential-risk/",
+  "trackedPromise": "METR will publish independent risk-assessment findings; no fixed publication date",
+  "integrityRule": "Append-only revisions: never overwrite this snapshot. Future evidence changes require a new version and review."
+}

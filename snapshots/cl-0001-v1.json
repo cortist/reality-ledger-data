@@ -1,0 +1,39 @@
+{
+  "id": "CL-0001",
+  "slug": "cl-0001",
+  "topic": "AI Safety",
+  "state": "pending",
+  "status": "Independent re-test pending",
+  "org": "OpenAI / METR / Redwood Research",
+  "date": "2026-10-22",
+  "title": "Were OpenAI's monitoring flaws independently re-tested after the reported fixes?",
+  "summary": "METR and Redwood evaluated an earlier internal system. OpenAI reported patches; METR explicitly said it had not tested those later claims.",
+  "scope": "The July–August exercise assessed historical controls, not the present production environment.",
+  "next": "A new independent test of the patched safeguards with a disclosed scope and methodology.",
+  "news": "/news/openai-metr-redwood-monitoring-flaws/",
+  "hub": "/ai-existential-risk/",
+  "sources": [
+    [
+      "METR's October 22 primary assessment",
+      "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+    ]
+  ],
+  "events": [
+    [
+      "Jul 21–Aug 11, 2026",
+      "Historical system evaluated",
+      "METR and Redwood performed a high-access monitoring red-team pilot."
+    ],
+    [
+      "Oct 22, 2026",
+      "Findings publicly documented",
+      "METR said it had not evaluated OpenAI's reported subsequent fixes."
+    ]
+  ],
+  "schemaVersion": "1.0",
+  "snapshotVersion": 1,
+  "snapshotPublished": "2026-10-25",
+  "reviewType": "Source-grounded baseline, not independently certified",
+  "historyPolicy": "Future material evidence is append-only. Preserve this version.",
+  "commercialServiceAvailable": false
+}

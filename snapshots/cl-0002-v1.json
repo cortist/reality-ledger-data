@@ -1,0 +1,43 @@
+{
+  "id": "CL-0002",
+  "slug": "cl-0002",
+  "topic": "AI in Medicine",
+  "state": "pending",
+  "status": "Prospective evidence pending",
+  "org": "Microsoft AI",
+  "date": "2026-10-22",
+  "title": "Do MAI-DxO's retrospective results establish benefits for real patients?",
+  "summary": "Microsoft reported 83% diagnostic accuracy over 304 retrospective complex cases. The reported clinician comparison used a smaller 56-case subset; patient benefits are unproven.",
+  "scope": "The 304-case evaluation and the 56-case physician subset must not be treated as equal comparison samples.",
+  "next": "Prospective clinical evaluations with independent review, diagnostic safety and patient outcomes.",
+  "news": "/news/microsoft-mai-dxo-sequential-diagnosis-science-2026/",
+  "hub": "/ai-in-medicine/",
+  "sources": [
+    [
+      "Microsoft: Building Medical Superintelligence",
+      "https://microsoft.ai/news/building-medical-superintelligence/"
+    ],
+    [
+      "Science research paper DOI",
+      "https://doi.org/10.1126/science.aeh7930"
+    ]
+  ],
+  "events": [
+    [
+      "Oct 22, 2026",
+      "Research disclosed",
+      "Microsoft described sequential-diagnosis benchmarks and its diagnostic orchestrator."
+    ],
+    [
+      "Oct 23, 2026",
+      "Cortist analysis",
+      "The different evaluation denominators and prospective validation limits were documented."
+    ]
+  ],
+  "schemaVersion": "1.0",
+  "snapshotVersion": 1,
+  "snapshotPublished": "2026-10-25",
+  "reviewType": "Source-grounded baseline, not independently certified",
+  "historyPolicy": "Future material evidence is append-only. Preserve this version.",
+  "commercialServiceAvailable": false
+}

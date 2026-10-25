@@ -1,0 +1,100 @@
+{
+  "title": "Cortist Reality Ledger — initial public evidence snapshot",
+  "snapshot_date": "2026-10-25",
+  "dataset_version": "1.0",
+  "record_count": 10,
+  "distinct_primary_source_urls": 12,
+  "canonical_index": "https://cortist.com/data/reality-ledger/index.json",
+  "canonical_ledger": "https://cortist.com/reality-ledger/",
+  "hugging_face_dataset": "https://huggingface.co/datasets/cortist/reality-ledger",
+  "source_production_deployment": "38787f39-d0e2-432f-b1d1-9c5317817616",
+  "index_sha256": "317f07bf6b8ab3a4f6ddefe083fcad528908cdb3fe7f2eaeeef84b153f1ed2db",
+  "snapshot_records": [
+    {
+      "id": "CL-0001",
+      "canonical_url": "https://cortist.com/data/reality-ledger/records/cl-0001-v1.json",
+      "repository_path": "snapshots/cl-0001-v1.json",
+      "sha256": "4573be5683900c69eb2e5d157d45e38e3cdfbf2c5927675fe669a63b48113e01",
+      "bytes": 1519,
+      "source_release": "cortist-reality-ledger-20261025-v1"
+    },
+    {
+      "id": "CL-0002",
+      "canonical_url": "https://cortist.com/data/reality-ledger/records/cl-0002-v1.json",
+      "repository_path": "snapshots/cl-0002-v1.json",
+      "sha256": "0ed706bd00a62620d3d8e74ba93a08d2a756081de9604794eaa340e2f1f82868",
+      "bytes": 1670,
+      "source_release": "cortist-reality-ledger-20261025-v1"
+    },
+    {
+      "id": "CL-0003",
+      "canonical_url": "https://cortist.com/data/reality-ledger/records/cl-0003-v1.json",
+      "repository_path": "snapshots/cl-0003-v1.json",
+      "sha256": "ac96e66881b37c650ce3b02815d22e6359c7e0d061e41863bd033a290765d9d0",
+      "bytes": 1394,
+      "source_release": "cortist-reality-ledger-20261025-v1"
+    },
+    {
+      "id": "CL-0004",
+      "canonical_url": "https://cortist.com/data/reality-ledger/records/cl-0004-v1.json",
+      "repository_path": "snapshots/cl-0004-v1.json",
+      "sha256": "2f44cd6f0e2fe1456e0dd0536eee77be6ecd66605492524b748382fdfb408c11",
+      "bytes": 1597,
+      "source_release": "cortist-reality-ledger-20261025-v1"
+    },
+    {
+      "id": "CL-0005",
+      "canonical_url": "https://cortist.com/data/reality-ledger/records/cl-0005-v1.json",
+      "repository_path": "snapshots/cl-0005-v1.json",
+      "sha256": "0c744620eca44c1beaa58cfa8ae681c135bfa784c88f689f56e0d556ca1f32d5",
+      "bytes": 1448,
+      "source_release": "cortist-evidence-watch-ledger-v2-20261025"
+    },
+    {
+      "id": "CL-0006",
+      "canonical_url": "https://cortist.com/data/reality-ledger/records/cl-0006-v1.json",
+      "repository_path": "snapshots/cl-0006-v1.json",
+      "sha256": "081fde83fb120db0fcc9505f791baf792648cfbb22ed90effea89b0f23c8e18b",
+      "bytes": 1317,
+      "source_release": "cortist-evidence-watch-ledger-v2-20261025"
+    },
+    {
+      "id": "CL-0007",
+      "canonical_url": "https://cortist.com/data/reality-ledger/records/cl-0007-v1.json",
+      "repository_path": "snapshots/cl-0007-v1.json",
+      "sha256": "bcaf8f4a45d2a3eff4b0f9bf0ad34c89820c17c5c4e10fa1c49e3b7229110b54",
+      "bytes": 1421,
+      "source_release": "cortist-evidence-watch-ledger-v2-20261025"
+    },
+    {
+      "id": "CL-0008",
+      "canonical_url": "https://cortist.com/data/reality-ledger/records/cl-0008-v1.json",
+      "repository_path": "snapshots/cl-0008-v1.json",
+      "sha256": "d8d97f82f596ea8915bd713348dd1c38896e75f61c107cb855eb340185e7d322",
+      "bytes": 1474,
+      "source_release": "cortist-evidence-watch-ledger-v2-20261025"
+    },
+    {
+      "id": "CL-0009",
+      "canonical_url": "https://cortist.com/data/reality-ledger/records/cl-0009-v1.json",
+      "repository_path": "snapshots/cl-0009-v1.json",
+      "sha256": "0ee568f900556714c2458e98b6255bc31514694e4f9d47c9b3a0523d5aea317a",
+      "bytes": 1375,
+      "source_release": "cortist-evidence-watch-ledger-v2-20261025"
+    },
+    {
+      "id": "CL-0010",
+      "canonical_url": "https://cortist.com/data/reality-ledger/records/cl-0010-v1.json",
+      "repository_path": "snapshots/cl-0010-v1.json",
+      "sha256": "52df29a18d2a52aa97542d28ce2a96edfedc42e201705eedd1431dd4bf420656",
+      "bytes": 1580,
+      "source_release": "cortist-evidence-watch-ledger-v2-20261025"
+    }
+  ],
+  "method": "Exact JSON snapshots read from Cortist's currently deployed production-asset archive, hash-matched against the Pages production manifest. Normalized JSONL generated without overwriting original snapshots.",
+  "notes": [
+    "No automatic Zenodo release has been created.",
+    "No additional copyright or research reuse license is granted by public repository availability.",
+    "SHA-256 hashes refer to original snapshot bytes."
+  ]
+}

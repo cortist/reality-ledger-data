@@ -1,0 +1,34 @@
+{
+  "id": "CL-0003",
+  "slug": "cl-0003",
+  "topic": "AI Agents",
+  "state": "announced",
+  "status": "Customer preview pending",
+  "org": "Google Cloud",
+  "date": "2026-10-22",
+  "title": "When can customers independently test Google Agent Compute Engine?",
+  "summary": "Google announced hardware-isolated agent compute and said a customer preview would become available in the coming months.",
+  "scope": "Internal Google usage is not the same as customer preview or independently validated performance.",
+  "next": "Public customer-preview documentation, supported regions and independently reproducible operational evaluations.",
+  "news": "/news/google-agent-compute-engine-ai-agent-sandboxes-2026/",
+  "hub": "/ai-agents/",
+  "sources": [
+    [
+      "Google Cloud: Agent Compute Engine announcement",
+      "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance"
+    ]
+  ],
+  "events": [
+    [
+      "Oct 22, 2026",
+      "Service announced",
+      "Google described the architecture and its future customer-preview plans."
+    ]
+  ],
+  "schemaVersion": "1.0",
+  "snapshotVersion": 1,
+  "snapshotPublished": "2026-10-25",
+  "reviewType": "Source-grounded baseline, not independently certified",
+  "historyPolicy": "Future material evidence is append-only. Preserve this version.",
+  "commercialServiceAvailable": false
+}

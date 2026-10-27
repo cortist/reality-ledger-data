@@ -3,7 +3,7 @@
 **Dataset:** [cortist/reality-ledger](https://huggingface.co/datasets/cortist/reality-ledger)  
 **Canonical publication:** [cortist/reality-ledger-data](https://github.com/cortist/reality-ledger-data)  
 **Verification status:** **VERIFIED — CONTENT-EQUIVALENT**, not byte-identical  
-**Dataset-card metadata status:** **PENDING HUGGING FACE UPLOAD**  
+**Dataset-card metadata status:** **VERIFIED — PUBLICLY UPDATED** (27 October 2026)  
 **Verification date:** 2026-10-27
 
 ## Direct public readback
@@ -20,18 +20,19 @@ The public HF JSONL and GitHub's `records.jsonl` were parsed and compared **reco
 
 **Important:** The JSONL files are intentionally **not byte-identical**. Hugging Face has extra interpretive metadata (`export_snapshot`, `interpretation_type`, `outcome_resolved`, `score`, `sources_count`) and structures source/event objects differently. The result is **content equivalence after explicit normalization**, not file-hash equality, a continuous sync mechanism, or an independent factual audit. A fresh verification is necessary following either publication's next change.
 
-## Remaining issue: HF dataset card DOI and license
+## Dataset-card metadata correction — now resolved
 
-The live Hugging Face `README.md` **does not currently contain**:
+Following the owner-uploaded replacement of Hugging Face's `README.md`, the dataset was **re-read from the public Hugging Face HTTP endpoints** on 27 October 2026.
 
-- A YAML `license: cc-by-4.0` declaration;
-- The version-specific Zenodo DOI **10.5281/zenodo.23650580**;
-- Explicit attribution and the legal distinction between Cortist-owned CC-BY-4.0 material and third-party linked publications.
+- The public `README.md` returned HTTP 200 and now contains the YAML entry `license: cc-by-4.0`.
+- Hugging Face's dataset API independently reports `cardData.license = cc-by-4.0`.
+- The public card includes the fixed-version Zenodo DOI **10.5281/zenodo.23650580** and explicitly distinguishes Cortist-licensed original material from linked third-party content.
+- The obsolete claim “No open redistribution or commercial-use license has been selected or granted” is absent.
+- New Hugging Face dataset revision: `ee8211eea398855c447aab3b4fec652568515f83`; last modified `2026-10-27T07:48:21Z`.
+- The public HF `records.jsonl` returned HTTP 200 and contains **exactly ten records**, `CL-0001` through `CL-0010`. All ten `snapshot_sha256` values match GitHub's current `records.jsonl`; the earlier full source- and timeline-normalized content equivalence check remains documented above.
+- The public file listing still includes the same `records.jsonl`, `exports/records.csv`, `metadata/source_manifest.json`, and `scripts/validate_dataset.py` resources. No dataset-record changes were requested or required.
+- GitHub's immutable v1.0 source snapshots, its archived release, and the Zenodo DOI record were not altered.
 
-GitHub already has those details in `LICENSE.md`, `CITATION.cff`, and its main README.
+**Resolved:** The specific metadata issue reported on 27 October 2026 is closed. Dataset-content synchronization is verified at this dated readback, but this is **not a permanently guaranteed live sync**, and later dataset changes require a fresh comparison.
 
-The complete corrected **Hugging Face dataset card** is prepared in [`huggingface/README.md`](huggingface/README.md). It preserves the existing HF dataset documentation and adds only precise legal/citation metadata. **This prepared file has not been uploaded to Hugging Face.**
-
-To complete the correction, an authorized owner/editor must replace **only HF's `README.md`** with the prepared content, then perform public readback of the updated YAML license and DOI. The safest one-off route is Hugging Face's authenticated web editor. For machine publishing, use an explicitly dataset-scoped fine-grained write token or appropriately configured trusted publishing; never post a token in a chat, store it in a public repo, use a broad-scope key, or mirror/delete unrelated HF files.
-
-The GitHub `v1.0` release/tag, ten historical snapshots, Zenodo archive, and existing HF JSONL remain unchanged. No HF dataset-card upload or new Zenodo archive was performed by this verification.
+Upload source: [`huggingface/README.md`](huggingface/README.md). Live destination: [HF dataset card](https://huggingface.co/datasets/cortist/reality-ledger).

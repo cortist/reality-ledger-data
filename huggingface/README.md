@@ -112,7 +112,7 @@ from datasets import load_dataset
 dataset = load_dataset("json", data_files="records.jsonl", split="train")
 ```
 
-The Hugging Face dataset ID above becomes usable **only after these files have actually been uploaded to a public dataset repository** under `cortist`.
+The public Hugging Face dataset repository is available at [cortist/reality-ledger](https://huggingface.co/datasets/cortist/reality-ledger). This prepared copy updates only its dataset-card metadata; publication on Hugging Face requires an authorized separate edit.
 
 ## Collection and transformation
 
@@ -138,14 +138,14 @@ For corrections or follow-up evidence, see [Cortist's methodology](https://corti
 
 ## License and provenance
 
-**No open redistribution or commercial-use license has been selected or granted for this Hugging Face export.** Public access does not itself convey permission to republish Cortist's original commentary or commercialize it. Third-party sources and linked documents retain their respective owners' terms and rights. Contact [Cortist](https://cortist.com/contact/) to discuss licensing or professional data use.
+**Cortist-owned content and its original compilation in this dataset are licensed CC BY 4.0**, including commercial reuse when proper attribution is provided. The grant applies only to material and rights that Cortist owns or may legally license. Linked third-party publications, full texts, photographs, figures, datasets, code, logos and trademarks are excluded and remain subject to their respective owners' rights. Read the [full license scope](https://github.com/cortist/reality-ledger-data/blob/main/LICENSE.md).
 
 For transparency and reproducibility, canonical snapshot links and content hashes are listed in [`metadata/source_manifest.json`](metadata/source_manifest.json). Links are not endorsements and should not be interpreted as independent verification.
 
 ## Citation
 
-Suggested attribution if permitted by applicable rights:
+Please cite the archived version-specific DOI when using the initial 25 October 2026 dataset:
 
-> Cortist. (2026). *Cortist Reality Ledger: source-linked AI claims and evidence* (snapshot 2026-10-25, export v1.0.0). https://cortist.com/reality-ledger/
+> Cortist (2026). *Cortist Reality Ledger: Initial Public Evidence Snapshot (v1.0)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23650580.
 
 **Maintained by [Cortist](https://cortist.com). Evidence over hype.**

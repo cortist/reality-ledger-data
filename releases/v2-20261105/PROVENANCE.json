@@ -1,0 +1,136 @@
+{
+  "schema": "cortist.reality_ledger.v2.provenance",
+  "asOf": "2026-11-05",
+  "version": "2.0.0",
+  "originalV1RepoBlob": "c8f9efb7fa3e65c29faa88b24e20cbaaff53e438",
+  "originalV1RecordCount": 10,
+  "newV2RecordCount": 10,
+  "combinedRecordCount": 20,
+  "sourceWebsite": "https://cortist.com/data/reality-ledger/v2/manifest-20261105.json",
+  "originalsPreserved": true,
+  "originals": [
+    {
+      "id": "CL-0001",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0001-v1.json",
+      "sha256": "4573be5683900c69eb2e5d157d45e38e3cdfbf2c5927675fe669a63b48113e01",
+      "location": "snapshots/cl-0001-v1.json"
+    },
+    {
+      "id": "CL-0002",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0002-v1.json",
+      "sha256": "0ed706bd00a62620d3d8e74ba93a08d2a756081de9604794eaa340e2f1f82868",
+      "location": "snapshots/cl-0002-v1.json"
+    },
+    {
+      "id": "CL-0003",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0003-v1.json",
+      "sha256": "ac96e66881b37c650ce3b02815d22e6359c7e0d061e41863bd033a290765d9d0",
+      "location": "snapshots/cl-0003-v1.json"
+    },
+    {
+      "id": "CL-0004",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0004-v1.json",
+      "sha256": "2f44cd6f0e2fe1456e0dd0536eee77be6ecd66605492524b748382fdfb408c11",
+      "location": "snapshots/cl-0004-v1.json"
+    },
+    {
+      "id": "CL-0005",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0005-v1.json",
+      "sha256": "0c744620eca44c1beaa58cfa8ae681c135bfa784c88f689f56e0d556ca1f32d5",
+      "location": "snapshots/cl-0005-v1.json"
+    },
+    {
+      "id": "CL-0006",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0006-v1.json",
+      "sha256": "081fde83fb120db0fcc9505f791baf792648cfbb22ed90effea89b0f23c8e18b",
+      "location": "snapshots/cl-0006-v1.json"
+    },
+    {
+      "id": "CL-0007",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0007-v1.json",
+      "sha256": "bcaf8f4a45d2a3eff4b0f9bf0ad34c89820c17c5c4e10fa1c49e3b7229110b54",
+      "location": "snapshots/cl-0007-v1.json"
+    },
+    {
+      "id": "CL-0008",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0008-v1.json",
+      "sha256": "d8d97f82f596ea8915bd713348dd1c38896e75f61c107cb855eb340185e7d322",
+      "location": "snapshots/cl-0008-v1.json"
+    },
+    {
+      "id": "CL-0009",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0009-v1.json",
+      "sha256": "0ee568f900556714c2458e98b6255bc31514694e4f9d47c9b3a0523d5aea317a",
+      "location": "snapshots/cl-0009-v1.json"
+    },
+    {
+      "id": "CL-0010",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0010-v1.json",
+      "sha256": "52df29a18d2a52aa97542d28ce2a96edfedc42e201705eedd1431dd4bf420656",
+      "location": "snapshots/cl-0010-v1.json"
+    }
+  ],
+  "additions": [
+    {
+      "id": "CL-0011",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0011-v1.json",
+      "sha256": "e7e7152c210f591141edcfe4faa44a36d84a5a21d5de892ef6f368b98810f169",
+      "location": "releases/v2-20261105/snapshots/cl-0011-v1.json"
+    },
+    {
+      "id": "CL-0012",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0012-v1.json",
+      "sha256": "86e6bf2ec7e4eae2e22cfdcd8b4d22dc67c2d7f2dfd923d3e36c5137e7d6a68c",
+      "location": "releases/v2-20261105/snapshots/cl-0012-v1.json"
+    },
+    {
+      "id": "CL-0013",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0013-v1.json",
+      "sha256": "f2bf278e3fd6e5db8c1e589194921017a7bc26d79b13b86473175750cdb155f5",
+      "location": "releases/v2-20261105/snapshots/cl-0013-v1.json"
+    },
+    {
+      "id": "CL-0014",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0014-v1.json",
+      "sha256": "01287a0beceec6e46a49dc1e8570122769e3b01698019701e3a3f9cb681cad93",
+      "location": "releases/v2-20261105/snapshots/cl-0014-v1.json"
+    },
+    {
+      "id": "CL-0015",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0015-v1.json",
+      "sha256": "e176a14335a1de8c9c9b9064c5182c82e397243ad968e7afee6e4d5adc2ec1e7",
+      "location": "releases/v2-20261105/snapshots/cl-0015-v1.json"
+    },
+    {
+      "id": "CL-0016",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0016-v1.json",
+      "sha256": "fdd138e5281984601573121e64d0ae045a723fb57fcb35ddeea9b992eca5e199",
+      "location": "releases/v2-20261105/snapshots/cl-0016-v1.json"
+    },
+    {
+      "id": "CL-0017",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0017-v1.json",
+      "sha256": "c04b23e5e02004c56cfe222892317d0801d886c9d44ee826ec8846ce89c98314",
+      "location": "releases/v2-20261105/snapshots/cl-0017-v1.json"
+    },
+    {
+      "id": "CL-0018",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0018-v1.json",
+      "sha256": "68006c9eef3be497e289747e841879ce4ffebc0e3a7c0791e31e12375cf31c4e",
+      "location": "releases/v2-20261105/snapshots/cl-0018-v1.json"
+    },
+    {
+      "id": "CL-0019",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0019-v1.json",
+      "sha256": "c53163939df45203e4f5742cb2ac81fdd89fbeaa2fa9ed6346d24b7641fd339c",
+      "location": "releases/v2-20261105/snapshots/cl-0019-v1.json"
+    },
+    {
+      "id": "CL-0020",
+      "snapshot_url": "https://cortist.com/data/reality-ledger/records/cl-0020-v1.json",
+      "sha256": "22971e37b99ef3e5d76835465bfac77c0cef13a33db1aa13d98fc875707c4df8",
+      "location": "releases/v2-20261105/snapshots/cl-0020-v1.json"
+    }
+  ],
+  "provenanceNote": "Original 25 Oct first-version snapshots and root JSONL remain unchanged. New 5 Nov first-version snapshots are byte identical to published Cortist JSON, verified SHA-256. Sources cited not relicensed. No independently resolved outcomes."
+}
